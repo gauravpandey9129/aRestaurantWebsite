@@ -1,0 +1,13 @@
+.button{
+    background-color: red;
+    color: white;
+    margin-right: 200px;
+    border-radius: 25px;
+}
+.form{
+
+    background-color: beige;
+    width: 250px;
+    margin-left: 550px;
+    margin-top: -80px;
+}

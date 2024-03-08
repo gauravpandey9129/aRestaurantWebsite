@@ -1,6 +1,7 @@
 import { useState } from "react"
 import React from 'react'
 import classes from './Items.module.css'
+import Form from "./Form"
 
 export default function Items() {
     const [items,setItems]=useState([{
@@ -25,11 +26,11 @@ export default function Items() {
        }])
   return (
     <div className={classes.bg} >
-        {items.map((elements)=>(<div className={classes.dish} key={elements.Dish} >
+        {items.map((elements)=>(<div key={elements.Dish} >
         <h1 className={classes.margin2} >.{elements.Dish}</h1>
         <p className={classes.p}>{elements.Speciality}</p>
         <h1 className={classes.r} > ${elements.Price }</h1> 
-        </div>))}
+      <Form/>     </div>))}
 
     </div>
   )
