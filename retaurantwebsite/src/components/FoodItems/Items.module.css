@@ -1,24 +1,22 @@
-.dish{
-   
+
+
+.bg{
+
     margin-left: 25px;
   
     
     
-
+    padding: 1rem;
     size: 25px;
-    font-size: 10px;
-    margin-top: 10px;
-
-
-}
-
-.bg{
+    font-size: 9px;
     background-color:white ;
     width: 800px;
     text-underline-position:below ;
     margin-left: 200px;
     border-radius: 25px;
-    
+    margin-top: 50px;
+     
+
 }
 
 
@@ -28,8 +26,13 @@
 .p{
     margin-top: 5px;
     font-style: italic ;
+    font-size: 15px;
 }
 .r{
     margin-top: 5px;
     color: red;
+}
+.line{
+    margin-left: 300px;
+    
 }
